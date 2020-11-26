@@ -26,4 +26,7 @@ class HomeController extends Controller
     public function jarak(){
         return view('jarak');
     }
+    public function berita(){
+        return view('berita');
+    }
 }
